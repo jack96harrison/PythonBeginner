@@ -13,7 +13,6 @@ number = range(1, 11)
 
 num = random.choice(number)
 
-#print("Please guess a number between 1 and 10")
 while x == 0:
 
     user_input = input("Please guess a number between 1 and 10: ")
@@ -33,3 +32,5 @@ while x == 0:
 
     else:
         print("PLEASE ENTER A VALID NUMBER BETWEEN 1 and 10")
+
+        
